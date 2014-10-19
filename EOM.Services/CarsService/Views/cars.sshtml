@@ -1,0 +1,6 @@
+﻿@Each
+	<div class="car">
+		<h2>@Current.RegistrationNumber</h2>
+		@Current.Brand @Current.Model
+	</div>
+@EndEach
